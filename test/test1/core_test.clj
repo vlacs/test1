@@ -4,4 +4,8 @@
 
 (deftest a-test
   (testing "FIXME, I fail."
-    (is (= 1 1))))
+    (is (= 0 1))))
+
+(deftest b-test
+  (testing "ARGH! FAIL."
+    (is true)))
